@@ -1,5 +1,5 @@
 ---
-title: [CentOS 8]CentOS8에서 최신버전의 Nodejs 설치하기
+title: "[CentOS 8]CentOS8에서 최신버전의 Nodejs 설치하기"
 date: 2019-12-14 23:11:03
 tags: [환경설정, nodejs, yum]
 ---
