@@ -1,7 +1,13 @@
 ---
 title: "[CentOS 8]Centos8에 VSCode 설치하기"
+layout: post
 date: 2019-12-14 22:23:48
+comments: true
 tags: [환경설정, VSCode, yum]
+categories: [Config CentOS8]
+description: 
+photos: 
+  - https://i1.wp.com/gtbensmagazine.com/wp-content/uploads/2019/04/CentOS.png?w=600&ssl=1
 ---
 <img src="https://i.ibb.co/LR3pfL4/image.png" alt="image" style="max-width: 100%; height:auto;" border="0" /><br>
 원본 링크 : https://code.visualstudio.com/docs/setup/linux
