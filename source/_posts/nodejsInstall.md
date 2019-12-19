@@ -25,6 +25,6 @@ $ yum install nodejs # nodejs 설치
 ```
 
 ### 버전 확인
-<img src="https://i.ibb.co/9gdwsF1/version.png" alt="version" style="max-width:100%; height:auto;" border="0"/><br>
+<img src="https://i.ibb.co/9gdwsF1/version.png" alt="" style="max-width:100%; height:auto;" border="0"/><br>
 
 감사합니다.

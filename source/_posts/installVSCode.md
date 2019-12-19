@@ -9,7 +9,7 @@ description:
 photos: 
   - https://i1.wp.com/gtbensmagazine.com/wp-content/uploads/2019/04/CentOS.png?w=600&ssl=1
 ---
-<img src="https://i.ibb.co/LR3pfL4/image.png" alt="image" style="max-width: 100%; height:auto;" border="0" /><br>
+<img src="https://i.ibb.co/LR3pfL4/image.png" alt="" style="max-width: 100%; height:auto;" border="0" /><br>
 원본 링크 : https://code.visualstudio.com/docs/setup/linux
 
 
