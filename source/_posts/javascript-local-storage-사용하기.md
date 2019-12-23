@@ -1,5 +1,5 @@
 ---
-title: javascript Local Storage 사용하기
+title: "[JavaScript] Local Storage 사용하기"
 layout: post
 date: 2019-12-23 17:07:53
 comments: true
