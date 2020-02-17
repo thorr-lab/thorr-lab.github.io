@@ -17,28 +17,28 @@
   <!-- PACE Progress Bar START -->
 
   
-  <title>[web] web server vs was | THORR-LAB</title>
+  <title>hyperledger fabirc 1.4 설치하기 - (1) | THORR-LAB</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   
-  <meta name="keywords" content="WebWAS" />
+  <meta name="keywords" content="LinuxBlockChain" />
   
   
   
   
-  <meta name="description" content="본 글은 아래 글을 보며 작성하였습니다.출처 : https:&#x2F;&#x2F;gmlwjd9405.github.io&#x2F;2018&#x2F;10&#x2F;27&#x2F;webserver-vs-was.html  WAS &#x3D; Web Application ServerQ: Web Server랑 동일한 것? A: 다른 것 Web Server :   Web Server는 파일 경로의 이름을 받아 경로와 일치하는 FI">
+  <meta name="description" content="하이퍼레저 패브릭 설치OS : ubuntu-18.04.3 Install To-Do List  gcc  make  node.js  git  python  pyhton-pip  curl  go  docker  docker-compose  ‘vim’, ‘gcc’, ‘make’, ‘node.js’, ‘git’, ‘python’, ‘python-pip’, ‘curl">
 <meta property="og:type" content="article">
-<meta property="og:title" content="[Web] Web Server vs WAS">
-<meta property="og:url" content="https:&#x2F;&#x2F;thorr-lab.github.io&#x2F;2019&#x2F;12&#x2F;19&#x2F;WAS&#x2F;index.html">
+<meta property="og:title" content="Hyperledger Fabirc 1.4 설치하기 - (1)">
+<meta property="og:url" content="https:&#x2F;&#x2F;thorr-lab.github.io&#x2F;2020&#x2F;02&#x2F;17&#x2F;%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD-%EC%84%A4%EC%B9%98&#x2F;index.html">
 <meta property="og:site_name" content="THORR-LAB">
-<meta property="og:description" content="본 글은 아래 글을 보며 작성하였습니다.출처 : https:&#x2F;&#x2F;gmlwjd9405.github.io&#x2F;2018&#x2F;10&#x2F;27&#x2F;webserver-vs-was.html  WAS &#x3D; Web Application ServerQ: Web Server랑 동일한 것? A: 다른 것 Web Server :   Web Server는 파일 경로의 이름을 받아 경로와 일치하는 FI">
-<meta property="og:image" content="https:&#x2F;&#x2F;gmlwjd9405.github.io&#x2F;images&#x2F;web&#x2F;webserver-vs-was1.png">
-<meta property="article:published_time" content="2019-12-19T09:59:40.000Z">
-<meta property="article:modified_time" content="2019-12-20T00:44:45.073Z">
+<meta property="og:description" content="하이퍼레저 패브릭 설치OS : ubuntu-18.04.3 Install To-Do List  gcc  make  node.js  git  python  pyhton-pip  curl  go  docker  docker-compose  ‘vim’, ‘gcc’, ‘make’, ‘node.js’, ‘git’, ‘python’, ‘python-pip’, ‘curl">
+<meta property="og:image" content="https:&#x2F;&#x2F;www.hyperledger.org&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;03&#x2F;hllogo_blog-1024x683.png">
+<meta property="article:published_time" content="2020-02-17T04:05:10.000Z">
+<meta property="article:modified_time" content="2020-02-17T04:44:38.205Z">
 <meta property="article:author" content="Thorr">
-<meta property="article:tag" content="Web">
-<meta property="article:tag" content="WAS">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="BlockChain">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https:&#x2F;&#x2F;gmlwjd9405.github.io&#x2F;images&#x2F;web&#x2F;webserver-vs-was1.png">
+<meta name="twitter:image" content="https:&#x2F;&#x2F;www.hyperledger.org&#x2F;wp-content&#x2F;uploads&#x2F;2019&#x2F;03&#x2F;hllogo_blog-1024x683.png">
   
     <link rel="alternate" href="/atom.xml" title="THORR-LAB" type="application/atom+xml">
   
@@ -178,14 +178,14 @@ var themeMenus = {};
             
       <div id="content" class="outer">
         
-          <section id="main" style="float:none;"><article id="post-WAS" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
+          <section id="main" style="float:none;"><article id="post-하이퍼레저-패브릭-설치" style="width: 66%; float:left;" class="article article-type-post" itemscope itemprop="blogPost" >
   <div id="articleInner" class="clearfix post-1016 post type-post status-publish format-standard has-post-thumbnail hentry category-template-2 category-uncategorized tag-codex tag-edge-case tag-featured-image tag-image tag-template">
     
 <div class="article-gallery">
   <div class="article-gallery-photos">
     
-      <a class="article-gallery-img fancybox" href="https://gmlwjd9405.github.io/images/web/webserver-vs-was1.png" target="_blank" rel="gallery_ck6pz5ygk0001ksvq9yue69ur noopener">
-        <img src="https://gmlwjd9405.github.io/images/web/webserver-vs-was1.png" itemprop="image">
+      <a class="article-gallery-img fancybox" href="https://www.hyperledger.org/wp-content/uploads/2019/03/hllogo_blog-1024x683.png" target="_blank" rel="gallery_ck6pz5yhi001pksvq6ww91ugi noopener">
+        <img src="https://www.hyperledger.org/wp-content/uploads/2019/03/hllogo_blog-1024x683.png" itemprop="image">
       </a>
     
   </div>
@@ -196,7 +196,7 @@ var themeMenus = {};
         
   
     <h1 class="thumb" class="article-title" itemprop="name">
-      [Web] Web Server vs WAS
+      Hyperledger Fabirc 1.4 설치하기 - (1)
     </h1>
   
 
@@ -204,64 +204,53 @@ var themeMenus = {};
     
     <div class="article-meta">
       
-	Posted on <a href="/2019/12/19/WAS/" class="article-date">
-	  <time datetime="2019-12-19T09:59:40.000Z" itemprop="datePublished">December 19, 2019</time>
+	Posted on <a href="/2020/02/17/%ED%95%98%EC%9D%B4%ED%8D%BC%EB%A0%88%EC%A0%80-%ED%8C%A8%EB%B8%8C%EB%A6%AD-%EC%84%A4%EC%B9%98/" class="article-date">
+	  <time datetime="2020-02-17T04:05:10.000Z" itemprop="datePublished">February 17, 2020</time>
 	</a>
 
       
     </div>
     <div class="article-entry" itemprop="articleBody">
       
-        <p>본 글은 아래 글을 보며 작성하였습니다.<br>출처 : <a href="https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html" target="_blank" rel="noopener">https://gmlwjd9405.github.io/2018/10/27/webserver-vs-was.html</a></p>
-<hr>
-<h3 id="WAS-Web-Application-Server"><a href="#WAS-Web-Application-Server" class="headerlink" title="WAS = Web Application Server"></a>WAS = Web Application Server</h3><p><strong>Q: Web Server랑 동일한 것? <br><br>A</strong>: 다른 것</p>
-<p>Web Server : </p>
-<ul>
-<li>Web Server는 파일 경로의 이름을 받아 경로와 일치하는 FILE 을 반환한다.</li>
-<li>이때 항상 동일한 페이지를 반환한다. 이를 Static Pages 라고 말함</li>
-<li>html, css, javascript 파일과 같이 파일에 컴퓨터에 저장되어 있는 파일들을 의미</li>
+        <h2 id="하이퍼레저-패브릭-설치"><a href="#하이퍼레저-패브릭-설치" class="headerlink" title="하이퍼레저 패브릭 설치"></a>하이퍼레저 패브릭 설치</h2><p>OS : ubuntu-18.04.3</p>
+<h3 id="Install-To-Do-List"><a href="#Install-To-Do-List" class="headerlink" title="Install To-Do List"></a>Install To-Do List</h3><ul>
+<li><input disabled="" type="checkbox"> gcc</li>
+<li><input disabled="" type="checkbox"> make</li>
+<li><input disabled="" type="checkbox"> node.js</li>
+<li><input disabled="" type="checkbox"> git</li>
+<li><input disabled="" type="checkbox"> python</li>
+<li><input disabled="" type="checkbox"> pyhton-pip</li>
+<li><input disabled="" type="checkbox"> curl</li>
+<li><input disabled="" type="checkbox"> go</li>
+<li><input disabled="" type="checkbox"> docker</li>
+<li><input disabled="" type="checkbox"> docker-compose</li>
 </ul>
-<p>WAS:</p>
-<ul>
-<li>DB 조회나 다양한 로직 처리를 요구하는 동적인 컨텐츠를 제공하기 위해 만들어진 Application Server</li>
-<li>동적인 contents를 반환하는 기능을 한다. 이러한 기능을 하는 페이지를 Dynamic Pages</li>
+<p>‘vim’, ‘gcc’, ‘make’, ‘node.js’, ‘git’, ‘python’, ‘python-pip’, ‘curl’ 설치 필요</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install vim</span><br><span class="line">sudo apt-get install gcc make nodejs git</span><br><span class="line">sudo apt install python python-pip</span><br><span class="line">sudo apt install curl</span><br></pre></td></tr></table></figure>
+
+<h3 id="After-Install-Something"><a href="#After-Install-Something" class="headerlink" title="After Install Something"></a>After Install Something</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> gcc</li>
+<li><input checked="" disabled="" type="checkbox"> make</li>
+<li><input checked="" disabled="" type="checkbox"> node.js</li>
+<li><input checked="" disabled="" type="checkbox"> git</li>
+<li><input checked="" disabled="" type="checkbox"> python</li>
+<li><input checked="" disabled="" type="checkbox"> pyhton-pip</li>
+<li><input checked="" disabled="" type="checkbox"> curl</li>
+<li><input disabled="" type="checkbox"> go</li>
+<li><input disabled="" type="checkbox"> docker</li>
+<li><input disabled="" type="checkbox"> docker-compose</li>
 </ul>
-<h3 id="그래서-Web-Server"><a href="#그래서-Web-Server" class="headerlink" title="그래서 Web Server?"></a>그래서 Web Server?</h3><p>하드웨어적 정의 : Web 서버가 설치되어있는 컴퓨터</p>
-<p>소프트웨어적 정의 : 웹 브라우저로부터 HTTP 요청을 받아 정적인 컴퓨터를 제공하는 컴퓨터 프로그램</p>
-<h3 id="기능"><a href="#기능" class="headerlink" title="기능"></a>기능</h3><ul>
-<li>HTTP 프로토콜을 기반으로 클라이언트의 요청을 서비스 하는 기능<ul>
-<li>정적 콘텐츠 제공</li>
-</ul>
-</li>
-<li>동적인 컨텐츠 제공을 위한 요청 전달<ul>
-<li>클라이언트의 요청 WAS에 전달, WAS가 처리한 결과를 클라이언트에 전달</li>
-</ul>
-</li>
-</ul>
-<h3 id="예"><a href="#예" class="headerlink" title="예 :"></a>예 :</h3><p>Apache Server, Nginx, IIS 등..</p>
-<h3 id="WAS-Web-Application-Server-1"><a href="#WAS-Web-Application-Server-1" class="headerlink" title="WAS(Web Application Server)"></a>WAS(Web Application Server)</h3><p>HTTP를 통해 컴퓨터나 장치에 어플리케이션을 수행해주는 미들웨어(소프트웨어 엔진)</p>
-<h3 id="기능-1"><a href="#기능-1" class="headerlink" title="기능"></a>기능</h3><ul>
-<li>WAS = Web Server + Web Container</li>
-<li>프로그램 실행 환경 &amp; DB 접속 기능 제공</li>
-<li>여러 개의 트랜잭션 관리 기능</li>
-<li>업무를 처리하는 비즈니스 로직 수행</li>
-</ul>
-<h3 id="Web-Container-Servlet-Container"><a href="#Web-Container-Servlet-Container" class="headerlink" title="Web Container, Servlet Container :"></a>Web Container, Servlet Container :</h3><ul>
-<li>JSP, Servlet을 실행시킬 수 있는 소프트웨어</li>
-</ul>
-<h3 id="예-1"><a href="#예-1" class="headerlink" title="예 :"></a>예 :</h3><p>ex) Tomcat, JBoss, Jeus, Web Sphere</p>
-<p>감사합니다.</p>
 
       
     </div>
     <footer class="entry-meta entry-footer">
       
 	<span class="ico-folder"></span>
-    <a class="article-category-link" href="/categories/Web-Tech/">Web Tech</a>
+    <a class="article-category-link" href="/categories/BlockChain/">BlockChain</a>, <a class="article-category-link" href="/categories/BlockChain/Hyperledger-Fabric-1-4/">Hyperledger Fabric 1.4</a>
 
       
   <span class="ico-tags"></span>
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/WAS/" rel="tag">WAS</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Web/" rel="tag">Web</a></li></ul>
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/BlockChain/" rel="tag">BlockChain</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Linux/" rel="tag">Linux</a></li></ul>
 
       
             
@@ -299,19 +288,10 @@ var themeMenus = {};
     
 <nav id="article-nav">
   
-    <a href="/2019/12/20/Hexo-Error-Fatal-in-unpopulated-submodule-deploy-git/" id="article-nav-newer" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Newer</strong>
-      <div class="article-nav-title">
-        
-          [Hexo, Error] Fatal: in unpopulated submodule .deploy_git
-        
-      </div>
-    </a>
   
-  
-    <a href="/2019/12/14/nodejsInstall/" id="article-nav-older" class="article-nav-link-wrap">
+    <a href="/2019/12/24/%EC%9B%B9-%EC%B4%88%EB%B3%B4-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%A5%BC-%EC%9C%84%ED%95%9C-VSCode-%ED%99%95%EC%9E%A5%EA%B8%B0%EB%8A%A5%EB%93%A4/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">[CentOS 8]CentOS8에서 최신버전의 Nodejs 설치하기</div>
+      <div class="article-nav-title">웹 초보 개발자를 위한 VSCode 확장기능들</div>
     </a>
   
 </nav>
@@ -325,7 +305,7 @@ var themeMenus = {};
     <div id="toc" class="toc-article" style="overflow-y: scroll; max-width: 28%;">
     <strong class="toc-title">Contents</strong>
     
-      <ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#WAS-Web-Application-Server"><span class="nav-number">1.</span> <span class="nav-text">WAS &#x3D; Web Application Server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#그래서-Web-Server"><span class="nav-number">2.</span> <span class="nav-text">그래서 Web Server?</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#기능"><span class="nav-number">3.</span> <span class="nav-text">기능</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#예"><span class="nav-number">4.</span> <span class="nav-text">예 :</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#WAS-Web-Application-Server-1"><span class="nav-number">5.</span> <span class="nav-text">WAS(Web Application Server)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#기능-1"><span class="nav-number">6.</span> <span class="nav-text">기능</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Web-Container-Servlet-Container"><span class="nav-number">7.</span> <span class="nav-text">Web Container, Servlet Container :</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#예-1"><span class="nav-number">8.</span> <span class="nav-text">예 :</span></a></li></ol>
+      <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#하이퍼레저-패브릭-설치"><span class="nav-number">1.</span> <span class="nav-text">하이퍼레저 패브릭 설치</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Install-To-Do-List"><span class="nav-number">1.1.</span> <span class="nav-text">Install To-Do List</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#After-Install-Something"><span class="nav-number">1.2.</span> <span class="nav-text">After Install Something</span></a></li></ol></li></ol>
     
     </div>
   </aside>
